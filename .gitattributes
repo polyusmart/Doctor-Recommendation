@@ -1,0 +1,5 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+self_learning/dataset.zip filter=lfs diff=lfs merge=lfs -text
+sl_best_model/sl_best_model.bin filter=lfs diff=lfs merge=lfs -text

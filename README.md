@@ -54,7 +54,7 @@ This self-learning task is to predict whether a profile and a dialogue come from
 The dataset for self-learning is avaliable at `self-learning/dataset`. To run both training and evaluation of self-learing task, turn to the `self-learning` directory, run:
 
 ```bash
-python self_learining.py -seed 2021 -epoch_num 20 -batch_size 50 -accumulation_steps 5
+python self_learning.py -seed 2021 -epoch_num 20 -batch_size 50 -accumulation_steps 5
 ```
 Checkpoints will be stored in `self_learning/checkpoints` directory. We choose our best self-learning checkpoint and move it into 'sl_best_model' that will be used later. 
 

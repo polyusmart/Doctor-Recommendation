@@ -46,7 +46,7 @@ def main():
         'test', test_set, profile_embeddings, query_embeddings, dialogue_embeddings, 
         dr_dialog_sample=args.dr_dialog_sample, neg_sample=args.neg_sample, output=args.output_dir
     )
-    test_dataloader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
+    test_dataloader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers=4)
     del test_set, test_dataset
     print('Done')
     
